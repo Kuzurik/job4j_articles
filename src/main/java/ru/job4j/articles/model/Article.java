@@ -1,5 +1,7 @@
 package ru.job4j.articles.model;
 
+import java.lang.ref.SoftReference;
+
 public class Article {
 
     private int id;
@@ -30,4 +32,5 @@ public class Article {
     public void setText(String text) {
         this.text = text;
     }
+
 }
